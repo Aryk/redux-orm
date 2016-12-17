@@ -8,8 +8,7 @@ clean:
 	rm -rf docs
 
 build: clean
-	$(BIN)/webpack
-	$(BIN)/webpack --mode=build
+	$(BIN)/babel src --out-dir lib
 	$(BIN)/jsdoc src -d docs -c ./jsdoc.conf.json --verbose
 
 test: lint
