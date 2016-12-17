@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var UPDATE="REDUX_ORM_UPDATE";exports.UPDATE=UPDATE;var DELETE="REDUX_ORM_DELETE";exports.DELETE=DELETE;var CREATE="REDUX_ORM_CREATE";exports.CREATE=CREATE;var ORDER="REDUX_ORM_ORDER";exports.ORDER=ORDER;
