@@ -3,7 +3,4 @@ docs
 *.sublime-project
 *.sublime-workspace
 .DS_Store
-lib
 .publish
-dist
-min
